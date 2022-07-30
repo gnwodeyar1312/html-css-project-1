@@ -1,0 +1,150 @@
+body{
+    height: 100vh;
+    margin: 50px 0px 150px 50px;
+    width: 100vh;
+    font-family: "Orbitron", sans-serif;
+}
+.navbar-container{
+    height: 15vh;
+    /* display: grid;
+    grid-template-columns: 1fr 3fr 1fr; */
+
+}
+
+.list{
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    /* list-style-type: none;
+    padding: 0 30px;
+    /* font-size: 50px; */
+    font-weight: 500;
+    margin-left: 170px;
+    margin-right: 80px; 
+}
+
+.list-item{
+    padding: 0 30px;
+    font-size: 22px;
+    font-weight: 500;
+ }
+ .button-group{
+    /* flex:1;
+    display: flex; */
+    /* flex-direction: row;
+    justify-content: center; */
+    float: right;
+    margin-top: 20px;
+    margin-left: 100px;
+ }
+ .nav-button{
+    border: solid;
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+    margin-left: 20px;
+    padding: 6px 40px 2px 40px;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.search-icon{
+    margin-top: 6px;
+    position: relative;
+    bottom: 9px;
+}
+
+.item1{
+    font-weight: 900;
+    text-decoration: underline;
+
+}
+
+.hero-container{
+    margin-top: 40px;
+}
+.square{
+    /* justify-content: flex-start; */
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    z-index: -1;
+}
+.star{
+    position: absolute;
+    right: 10%;
+}
+.globe{
+    position: absolute;
+    left: 50%;
+    top:20%;
+}
+.hero-container>div>img{
+    width: 500px;
+}
+.hero-container-right{
+    position: absolute;
+    display: block;
+    left: 45%;
+    top:35%;
+}
+.hero-heading{
+    display: block;
+    font-size: 60px;
+}
+.hero-description{
+    position: relative;
+    top:10px;
+    right: 30px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding: 0 150px 0 50px;
+    font-weight: 400;
+    color: #413F3C;
+    margin-top: 0px;
+}
+p+div{
+    margin: 100px 200px;
+    font-family: "Orbitron", sans-serif;
+}
+.button-email{
+    padding: 3px 30px;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    color: rgba(65, 63, 60, 0.797);
+    font-weight: 600;
+    font-family: "Orbitron", sans-serif;
+}
+.button-join{
+    background-color: black;
+    color: #fff;
+    font-weight: 500;
+    font-family: "Orbitron", sans-serif;
+    border-radius: 10px;
+    padding: 3px 5px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.contact-heading{
+    position: relative;
+    top:20px;
+    margin-left: 330px;
+    font-size: 23px;
+    color:rgba(65, 63, 60, 0.797);
+    text-transform: capitalize  ;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.icons{
+    margin-left:250px ;
+}
+.icons img{
+    margin-left: 20px;
+}
+
+ p+div+div{
+    background-image: url(./assets/start.png);
+background-repeat: no-repeat;
+} 
