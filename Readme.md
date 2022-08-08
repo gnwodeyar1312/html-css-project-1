@@ -1,4 +1,4 @@
-# Street Dance LAnding  Page
+# Street Dance Landing  Page
 
 ![Image](./1.png)
 
